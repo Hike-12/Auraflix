@@ -20,7 +20,7 @@
     "json-bigint": "^1.0.0",
     "jspdf": "^3.0.1",
     "leaflet": "^1.9.4",
-    "lucide-react": "^0.483.0",
+    "lucide-react": "^0.541.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-leaflet": "^5.0.0",
