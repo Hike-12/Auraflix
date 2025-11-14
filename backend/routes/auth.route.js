@@ -31,7 +31,7 @@ router.post("/register", async (req, res) => {
     // Get suggestions from FastAPI before creating the user
     try {
       const apiResponse = await axios.post(
-        "http://localhost:8000/receive-business",
+        "https://influenceiq-python.onrender.com/receive-business",
         {
           businessName,
           email,
@@ -106,7 +106,7 @@ router.post("/login", async (req, res) => {
     });
 
     await axios
-      .post("http://localhost:8000/receive-business", {
+      .post("https://influenceiq-python.onrender.com/receive-business", {
         businessName: businessUser.businessName,
         email: businessUser.email,
         businessCategory: businessUser.businessCategory,
