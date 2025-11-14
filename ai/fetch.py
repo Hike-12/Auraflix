@@ -1067,6 +1067,6 @@ async def calculate_regression(metric: str, data: List[TrendPoint]):
 # Run the API using Uvicorn
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, port=8000)
     
 
